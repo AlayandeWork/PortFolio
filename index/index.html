@@ -73,6 +73,16 @@
             </div>
         </div>
     </div>
+
+    <!---------Services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class = "sub-title">My Services</h1>
+            <div class="services-list">
+                
+            </div>
+        </div>
+    </div>
     <script>
         var tablinks= document.getElementsByClassName("tab-links");
         var tabcontents= document.getElementsByClassName("tab-contents");
@@ -85,6 +95,7 @@
                 tablink.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
     </script>
 </body>
